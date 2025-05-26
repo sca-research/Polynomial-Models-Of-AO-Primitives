@@ -4,6 +4,9 @@ In [SageMath](https://www.sagemath.org/) the following primitives and experiment
 - [GMiMC](https://doi.org/10.1007/978-3-030-29962-0_8).
     - Polynomial models for contracting/expanding round functions, univariate keys, and sponge functions.
     - Experiments for generic coordinates.
+- [Hades](https://doi.org/10.1007/978-3-030-45724-2_23).
+    - Polynomial model for multivariate keys.
+    - Demonstration of DRL Gröbner basis computation.
 - [MiMC](https://doi.org/10.1007/978-3-662-53887-6_7).
     - Polynomial models for univariate and Feistel-MiMC.
     - Experiments for the empirical solving degree and Castelnuovo-Mumford regularity.
