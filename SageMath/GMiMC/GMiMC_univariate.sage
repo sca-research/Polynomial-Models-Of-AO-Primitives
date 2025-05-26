@@ -12,7 +12,7 @@ class GMiMC:
                  mode="erf",
                  info_level=1):
         """
-        Initialization of the GMiMC_erf instance with univariate key.
+        Initialization of the GMiMC instance with univariate key.
 
         INPUT:
         "field" -- A finite field.
@@ -88,7 +88,7 @@ class GMiMC:
     
     def encrypt(self, plain, key):
         """
-        GMiMC_erf encryption function.
+        GMiMC encryption function.
 
         INPUT:
         "plain" -- A list or vector of n field elements.
@@ -112,7 +112,7 @@ class GMiMC:
     
     def generate_variables(self):
         """
-        Generates variables for the iterated GMiMC_erf polynomial model.
+        Generates variables for the iterated GMiMC polynomial model.
 
         OUTPUT:
         A list of strings.
@@ -130,7 +130,7 @@ class GMiMC:
                              order="degrevlex",
                              info_level=1):
         """
-        Generates iterated GMiMC_erf polynomial model.
+        Generates iterated GMiMC polynomial model.
 
         INPUT:
         "plain" -- A list or vector of n field elements.
@@ -252,7 +252,7 @@ class GMiMC:
                                polynomials,
                                info_level=1):
         """
-        Computes a DRL Groebner basis for GMiMC_erf via an affine change of coordinates.
+        Computes a DRL Groebner basis for GMiMC via an affine change of coordinates.
 
         INPUT: 
         "polynomials" -- GMiMC iterated polynomial model.

@@ -13,7 +13,7 @@ class GMiMC:
                  mode="erf",
                  info_level=1):
         """
-        Initialization of the GMiMC_crf instance.
+        Initialization of the GMiMC instance.
 
         INPUT:
         "field" -- A finite field.
@@ -127,14 +127,14 @@ class GMiMC:
     
     def encrypt(self, plain, key):
         """
-        GMiMC_erf encryption function.
+        GMiMC encryption function.
 
         INPUT:
         "plain" -- A list or vector of n field elements.
         "key" -- A list or vector of n field elements.
 
         OUTPUT:
-        A list of n field elements.
+        A vector of n field elements.
         """
         if self.mode == "erf":
             round_function = self.round_function_erf
@@ -296,7 +296,7 @@ class GMiMC:
                                polynomials,
                                info_level=1):
         """
-        Computes a DRL Groebner basis for GMiMC_erf via an affine change of coordinates.
+        Computes a DRL Groebner basis for GMiMC via an affine change of coordinates.
 
         INPUT: 
         "polynomials" -- GMiMC iterated polynomial model.
