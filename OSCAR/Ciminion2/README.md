@@ -14,7 +14,7 @@ In addition, it contains the scripts:
 For each round number, $10$ trials are performed and average running times are reported.
 
 ## Requirements
-- [OSCAR](https://www.oscar-system.org/) 1.2.2.
+- [OSCAR](https://www.oscar-system.org/) 1.4.1.
 
 ## Usage
 For a usage example see [Ciminion_2_Demo.ipynb](./Ciminion_2_Demo.ipynb).

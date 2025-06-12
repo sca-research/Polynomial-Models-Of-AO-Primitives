@@ -11,7 +11,7 @@ The files
 In addition, it contains the script [Hydra_generic_coordinates.sage](./Hydra_generic_coordinates.sage) which verifies generic coordinates for a Hydra instance in a fixed round numbers interval $r_{min} \leq r_\mathcal{H} \leq r_{max}$.
 
 ## Requirements
-- [SageMath](https://www.sagemath.org/) 10.5.
+- [SageMath](https://www.sagemath.org/) 10.6.
 
 ## Usage
 For a usage example see [Hydra_Demo.sage](./Hydra_Demo.ipynb).

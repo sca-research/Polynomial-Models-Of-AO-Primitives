@@ -94,7 +94,9 @@ println("Maximal number of rounds: ", max_rounds)
 println("-----------------------------------------------------------")
 
 # Trial run for precompilation
-hydra_trial = Hydra_constructor(field=K, rounds_head=2)
+hydra_trial = Hydra_constructor(field=K, 
+                                rounds_head=2,
+                                info_level=0)
 _t_mat_trial, _t_det_trial, _t_rand_trial = bench_char_poly(hydra_trial; print_time=false)
 
 for rounds_head in 3:max_rounds
@@ -103,7 +105,9 @@ for rounds_head in 3:max_rounds
     times_det = []
     times_rand = []
     for _i in 1:N_trials
-        hydra = Hydra_constructor(field=K, rounds_head=rounds_head)
+        hydra = Hydra_constructor(field=K, 
+                                  rounds_head=rounds_head, 
+                                  info_level=0)
         t_mat, t_det, t_rand = bench_char_poly(hydra)
         push!(times_mat, t_mat)
         push!(times_det, t_det)

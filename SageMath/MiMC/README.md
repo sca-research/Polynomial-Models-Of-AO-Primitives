@@ -16,7 +16,7 @@ In addition, it contains Notebooks which compute the empirical solving degree an
 
 
 ## Requirements
-- [SageMath](https://www.sagemath.org/) 10.5.
+- [SageMath](https://www.sagemath.org/) 10.6.
 
 ## Usage
 For usage examples of the various instances see [MiMC_Demo.ipynb](./MiMC_Demo.ipynb).

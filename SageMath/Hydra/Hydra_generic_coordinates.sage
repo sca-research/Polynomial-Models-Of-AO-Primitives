@@ -48,6 +48,7 @@ if __name__ == "__main__":
     print("Field:", field)
     print("Matrix external:\n" + str(matrix_body_E))
     print("Matrix head:\n" + str(matrix_head))
+    print(100 * "-")
 
     for m in range(min_samples, max_samples + 1):
         print("Number of samples:", m)

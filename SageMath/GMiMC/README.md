@@ -12,7 +12,7 @@ In addition, it contains scripts
 which verify generic coordinates for a GMiMC instance in a fixed round numbers interval $r_{min} \leq r \leq r_{max}$.
 
 ## Requirements
-- [SageMath](https://www.sagemath.org/) 10.5.
+- [SageMath](https://www.sagemath.org/) 10.6.
 
 ## Usage
 For usage examples of the various instances see the usage example sage scripts or the Demo notebooks.
