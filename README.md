@@ -28,7 +28,8 @@ In [OSCAR](https://www.oscar-system.org/) the following primitives and experimen
     - Polynomial model for permutation truncation mode.
     - Guessing experiments for Gröbner basis computations.
 
+Additionally, in [OSCAR](https://www.oscar-system.org/) we implemented polynomial models for Castelnuovo-Mumford regularity and satiety examples presented in the thesis.
 
 ## Requirements
-- [SageMath](https://www.sagemath.org/) 10.5.
-- [OSCAR](https://www.oscar-system.org/) 1.2.2.
+- [SageMath](https://www.sagemath.org/) 10.6.
+- [OSCAR](https://www.oscar-system.org/) 1.4.1.

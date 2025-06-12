@@ -4,7 +4,7 @@ This directory contains [SageMath](https://www.sagemath.org/) implementations of
 In the Notebook [Hades.ipynb](./Hades.ipynb) a DRL Gröbner basis is computed by inverting the matrix in every round.
 
 ## Requirements
-- [SageMath](https://www.sagemath.org/) 10.5.
+- [SageMath](https://www.sagemath.org/) 10.6.
 
 ## Usage
 For usage examples of the various instances see [Hades.ipynb](./Hades.ipynb).
