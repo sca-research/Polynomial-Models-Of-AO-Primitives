@@ -48,8 +48,9 @@ for p in primes
                                    info_level=0)
             t = round(time() - t; digits=2)
             # Compute vector space dimension
-            A, _ = quo(P, ideal(gb))
-            D = factor(Int64(vector_space_dimension(A)))
+            gb = map(leading_monomial, gb)
+            f = Oscar.AlgebraicSolving.hilbert_series(Oscar.AlgebraicSolving.Ideal(gb))
+            D = factor(numerator(f)(BigInt(1)))
             open("Poseidon_Compression_Partial_Guessing_Experiment.log", "a") do file
                 text = string(p) * "\t" 
                 text *= string(n) * "\t" 
@@ -98,8 +99,9 @@ for p in primes
                                    info_level=0)
             t = round(time() - t; digits=2)
             # Compute vector space dimension
-            A, _ = quo(P, ideal(gb))
-            D = factor(Int64(vector_space_dimension(A)))
+            gb = map(leading_monomial, gb)
+            f = Oscar.AlgebraicSolving.hilbert_series(Oscar.AlgebraicSolving.Ideal(gb))
+            D = factor(numerator(f)(BigInt(1)))
             open("Poseidon_Compression_Partial_Guessing_Experiment.log", "a") do file
                 text = string(p) * "\t" 
                 text *= string(n) * "\t" 
